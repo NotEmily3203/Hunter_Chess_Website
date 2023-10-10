@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b30baa1.css",
+    "main.js": "/static/js/main.a557797b.js",
+    "static/media/new_hunter_logo-removebg-preview-cropped.png": "/static/media/new_hunter_logo-removebg-preview-cropped.692823b801e711574544.png",
+    "index.html": "/index.html",
+    "main.1b30baa1.css.map": "/static/css/main.1b30baa1.css.map",
+    "main.a557797b.js.map": "/static/js/main.a557797b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b30baa1.css",
+    "static/js/main.a557797b.js"
+  ]
+}
