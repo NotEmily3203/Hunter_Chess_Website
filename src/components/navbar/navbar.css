@@ -20,8 +20,8 @@
 }
 
 .chess__navbar-links_logo img{
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 .chess__navbar-sign {
@@ -66,4 +67,71 @@
     border: 0;
     outline: 0;
     cursor: pointer;
+}
+
+.chess__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.chess__navbar-menu img {
+    cursor: pointer;
+}
+
+.chess__navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2 rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1 rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+
+.chess__navbar-menu_container p{
+    margin: 1rem;
+}
+.chess__navbar-menu_container-links-sign{
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .chess__navbar-links_container{
+        display: none;
+    }
+    .chess__navbar-menu{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .chess__navbar{
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .chess__navbar{
+        padding: 1rem;
+    }
+
+    .chess__navbar-sign{
+        display: none;
+    }
+
+    .chess__navbar-menu_container{
+        top:20px;
+    }
+
+    .chess__navbar-menu_container-links-sign{
+        display: block;
+    }
 }
