@@ -51,11 +51,15 @@
     .chess__features-heading{
         margin: 0 0 2rem 0;
     }
+    .chess__features-heading h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
 }
 
 @media screen and (max-width:550px) {
     .chess__features-heading h1{
-        font-size: 35px;
+        font-size: 30px;
         line-height: 35px;
     }
 }

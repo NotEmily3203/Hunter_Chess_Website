@@ -1,0 +1,67 @@
+.chess__officers{
+    display: flex;
+    flex-direction: column;
+}
+
+.chess__officers-headings{
+    width:100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.chess__officers-headings h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+
+}
+
+.chess__officers-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.chess__officers-container_profiles{
+    flex:1;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 2rem;
+}
+
+.chess__officers-container_profiles img{
+    width: 100%;
+}
+
+@media screen and (max-width:990px) {
+    .chess__officers-headings h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .chess__officers-headings{
+        margin-bottom: 2rem;
+    }
+    .chess__officers-container_profiles{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width:690px){
+    .chess__officers-headings h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .chess__officers-headings{
+        margin-bottom: 1rem;
+    }
+    .chess__officers-container_profiles{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:330px){
+    .chess__officers-container_profiles{
+        grid-template-columns:repeat(1,1fr);
+    }
+}
