@@ -29,6 +29,11 @@
     line-height: 30px;
     color: rgb(255, 194, 115);
     margin-top: 2rem;
+    cursor: pointer;
+}
+
+.chess__features-heading:hover p{
+    text-decoration: underline;
 }
 
 .chess__features-container{

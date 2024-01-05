@@ -10,7 +10,7 @@ const About = () => {
       </div>
       <div className='chess__about-heading'>
         <h1 className='gradient__text'>Our Mission</h1>
-        <p>See Upcoming Events</p>
+        <p>See Upcoming Events &gt;&gt;</p>
       </div>
       <div className='chess__about-container'>
         <Feature title="Community" text="Hunter's Chess Club strives to build community by uniting players through their love for chess. We aim to create a safe space where all players of all levels are welcomed to experience the game."/>

@@ -23,7 +23,7 @@ const Features = () => {
     <div className='chess__features section__padding' id="features">
       <div className='chess__features-heading'>
         <h1 className='gradient__text'>Check out what we've been up to!</h1>
-        <p>View some of the events we attended from the Fall 2023 semester</p>
+        <p>View some of the events we attended from the Fall 2023 semester &gt;&gt;</p>
       </div>
       <div className='chess__features-container'>
         {featuresData.map((item,index) => 
