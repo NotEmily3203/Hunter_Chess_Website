@@ -14,7 +14,7 @@ const Menu =() => (
   <p><a href='#about'>About</a></p>
   <p><a href='#features'>Events</a></p>
   <p><a href='#officers'>Officers</a></p>
-  <p><a href='#contacts'>Contacts</a></p>
+  <p><a href='#footer'>Contacts</a></p>
   </>
 )
 
