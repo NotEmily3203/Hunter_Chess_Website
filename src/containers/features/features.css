@@ -1,0 +1,56 @@
+.chess__features{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.chess__features-heading{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.chess__features-heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.chess__features-heading p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(255, 194, 115);
+    margin-top: 2rem;
+}
+
+.chess__features-container{
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:990px) {
+    .chess__features{
+        flex-direction: column;
+    }
+    .chess__features-heading{
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .chess__features-heading h1{
+        font-size: 35px;
+        line-height: 35px;
+    }
+}

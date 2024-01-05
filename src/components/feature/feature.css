@@ -1,0 +1,59 @@
+.chess__features-container__feature{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.chess__features-container__feature-title{
+    flex:1;
+    max-width: 100px;
+    margin-right: 2rem;
+}
+
+.chess__features-container__feature-title h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.04rem;
+    color: aliceblue;
+}
+
+.chess__features-container__feature-title div{
+    width: 40px;
+    height: 3px;
+    background: var(--gradient-bar);
+    margin-bottom: 0.25rem;
+}
+
+.chess__features-container__feature-text{
+    flex:2;
+    max-width: 390px;
+    display: flex;
+}
+
+.chess__features-container__feature-text p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--color-text);
+}
+
+@media screen and (max-width:550px){
+    .chess__features-container__feature-title h1{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .chess__features-container__feature-title p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .chess__features-container__feature {
+        margin: 1rem 0;
+    }
+}
