@@ -59,9 +59,3 @@
         grid-template-columns:repeat(2,1fr);
     }
 }
-
-@media screen and (max-width:330px){
-    .chess__officers-container_profiles{
-        grid-template-columns:repeat(1,1fr);
-    }
-}

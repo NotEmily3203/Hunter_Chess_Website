@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import logo from '../../assets/new_hunter_logo-removebg-preview-cropped.png'
 import './navbar.css';
-
+import { Link } from "react-router-dom";
 //naming convention is called BEM
 
 //create variable menu for navbar linked items
@@ -10,10 +10,9 @@ import './navbar.css';
 
 const Menu =() => (
   <>
-  <p><a href='#home'>Home</a></p>
-  <p><a href='#about'>About</a></p>
-  <p><a href='#features'>Events</a></p>
-  <p><a href='#officers'>Officers</a></p>
+  <p><Link to='/'>Home</Link></p>
+  <p><Link to='/events'>Events</Link></p>
+  <p><Link to='/officers'>Officers</Link></p>
   <p><a href='#footer'>Contacts</a></p>
   </>
 )

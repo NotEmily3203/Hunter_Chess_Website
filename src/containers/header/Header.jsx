@@ -5,7 +5,7 @@ import playing from '../../assets/playing-chess.jpg';
 const Header = () => {
   return (
     <div className='chess__header section__padding' id='home'>
-      <div className='chess__header-content'>
+      <div className='chess__header-content '>
         <h1 className='gradient__text'>
           Welcome to Hunter Chess Club
         </h1>

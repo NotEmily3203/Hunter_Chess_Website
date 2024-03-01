@@ -1,20 +1,18 @@
 import React from 'react';
+import {Home , Events, Officers} from '../src/routes'
+import {Routes, Route} from 'react-router-dom';
 
-import { Footer, Blog, Possibility, Features, About, Header} from './containers';
-import { CTA, Brand, Navbar} from './components'
-
+import { Footer, Possibility, Features, About, Header} from './containers';
+import { Navbar} from './components';
 import './App.css';
 const App = () => {
   return (
     <div className='App'>
-      <div className='gradient__bg'>
-        <Navbar />
-        <Header />
-      </div>
-      <About/>
-      <Features />
-      <Possibility />
-      <Footer />
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/events" element={<div><Navbar/><Events/></div>}/>
+          <Route path="/officers" element={<div><Officers/></div>}/>
+        </Routes>
     </div>
     
   )

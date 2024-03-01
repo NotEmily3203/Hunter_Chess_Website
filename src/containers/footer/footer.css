@@ -41,6 +41,7 @@
     text-align: end;
 }
 
+
 .chess__footer-links p{
     font-family: var(--font-family);
     color:var(--color-text);

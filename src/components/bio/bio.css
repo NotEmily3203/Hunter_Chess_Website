@@ -1,0 +1,51 @@
+.chess__officers-container_bio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.chess__officers-container_bio-image{
+    flex: 1;
+    max-width: 25%;
+    margin: 0 2rem;
+}
+
+.chess__officers-container_bio-image img{
+    width: 100%;
+}
+
+.chess__officers-container_bio-about{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-right: 5rem;
+}
+
+.chess__officers-container_bio-about h1{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 40px;
+    color: aliceblue;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    
+}
+
+.chess__officers-container_bio-about h3{
+    font-family: var(--font-family);
+    font-weight:bold;
+    font-size:15px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+.chess__officers-container_bio-about p{
+    font-family: var(--font-family);
+    font-weight:bold;
+    font-size:15px;
+    line-height: 30px;
+    color: aliceblue;
+    cursor: pointer;
+}
